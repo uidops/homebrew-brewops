@@ -15,6 +15,7 @@ class Bicon < Formula
   # Libraries used by bicon
   depends_on "freetype"
   depends_on "gettext"
+  depends_on "fribidi"
 
   # HEAD version for convenience
   head "https://github.com/uidops/bicon-macos.git", branch: "master"
