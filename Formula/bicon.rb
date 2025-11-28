@@ -1,7 +1,7 @@
 class Bicon < Formula
   desc "Bicon for macOS — bidirectional console support"
   homepage "https://github.com/uidops/bicon-macos"
-  url "https://github.com/uidops/bicon-macos/archive/refs/heads/main.tar.gz"
+  url "https://github.com/uidops/bicon-macos/archive/refs/heads/master.tar.gz"
   version "HEAD"
   sha256 "SKIP" # Homebrew allows sha256 :no_check for HEAD-like formulas
   license "GPL-2.0-or-later"
@@ -17,7 +17,7 @@ class Bicon < Formula
   depends_on "gettext"
 
   # HEAD version for convenience
-  head "https://github.com/uidops/bicon-macos.git", branch: "main"
+  head "https://github.com/uidops/bicon-macos.git", branch: "master"
 
   def install
     # In case glibtoolize is needed instead of libtoolize
