@@ -3,7 +3,7 @@ class Bicon < Formula
   homepage "https://github.com/uidops/bicon-macos"
   url "https://github.com/uidops/bicon-macos/archive/refs/heads/master.tar.gz"
   version "HEAD"
-  sha256 "SKIP" # Homebrew allows sha256 :no_check for HEAD-like formulas
+  sha256 "cab1b4db323e18898004e6d0a8365f1b62e43e98b3381e5405fcb3de954ce077"
   license "GPL-2.0-or-later"
 
   # Dependencies required to run autogen.sh + build
