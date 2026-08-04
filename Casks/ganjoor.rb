@@ -7,7 +7,7 @@ cask "ganjoor" do
   desc "macOS Tahoe widget for a fresh verse from Ganjoor"
   homepage "https://github.com/uidops/ganjoor"
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: :tahoe
 
   app "Ganjoor.app"
 end
